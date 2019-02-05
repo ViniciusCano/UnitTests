@@ -14,6 +14,8 @@
 		CEAFF68D2209B263008B530A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFF68B2209B263008B530A /* LaunchScreen.storyboard */; };
 		CEAFF6982209B263008B530A /* UnitTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFF6972209B263008B530A /* UnitTestsTests.swift */; };
 		CEAFF6A32209B263008B530A /* UnitTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFF6A22209B263008B530A /* UnitTestsUITests.swift */; };
+		CEAFF6B12209B294008B530A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFF6B02209B294008B530A /* Car.swift */; };
+		CEAFF6B32209B420008B530A /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFF6B22209B420008B530A /* CarTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CEAFF69E2209B263008B530A /* UnitTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAFF6A22209B263008B530A /* UnitTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsUITests.swift; sourceTree = "<group>"; };
 		CEAFF6A42209B263008B530A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAFF6B02209B294008B530A /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CEAFF6B22209B420008B530A /* CarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				CEAFF6892209B263008B530A /* Assets.xcassets */,
 				CEAFF68B2209B263008B530A /* LaunchScreen.storyboard */,
 				CEAFF68E2209B263008B530A /* Info.plist */,
+				CEAFF6B02209B294008B530A /* Car.swift */,
+				CEAFF6B22209B420008B530A /* CarTests.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 			files = (
 				CEAFF6852209B260008B530A /* ViewController.swift in Sources */,
 				CEAFF6832209B260008B530A /* AppDelegate.swift in Sources */,
+				CEAFF6B12209B294008B530A /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFF6B32209B420008B530A /* CarTests.swift in Sources */,
 				CEAFF6982209B263008B530A /* UnitTestsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
